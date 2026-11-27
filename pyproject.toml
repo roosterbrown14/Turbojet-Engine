@@ -1,0 +1,9 @@
+[project]
+name = "turbojet-tj110"
+version = "0.1.0"
+description = "Meanline, cycle, off-design, materials and rotordynamics models of a small turbojet (TJ-110)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
