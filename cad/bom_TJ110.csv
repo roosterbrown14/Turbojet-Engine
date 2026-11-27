@@ -1,0 +1,41 @@
+part,qty,material,process,envelope_mm,volume_mm3,mass_each_g,mass_total_g,notes
+bellmouth,1,Aluminum 6061-T6,CNC lathe from Ø85 bar; 3 starter bosses milled,87.8 x 83.2 x 33.2,23007.6,62.12,62.12,Elliptical lip; M3 bosses for a starter bracket
+front_cover,1,Aluminum 6061-T6,CNC lathe (shroud contour turned to the blade-tip offset),130.0 x 130.0 x 19.0,48551.7,131.09,131.09,Compressor shroud + diffuser front wall + front flange
+impeller,1,Aluminum 2618-T61,5-axis milled from forged bar; balanced,72.6 x 72.6 x 24.5,27462.4,75.8,75.8,"7 main + 7 splitter blades, 30 deg backsweep"
+compressor_nut,1,Stainless 17-4PH H1025,Lathe + hex mill,13.9 x 12.0 x 8.5,650.5,5.07,5.07,M8 x 1 left-hand (tightens against rotation); starter cone seat
+diffuser,1,Aluminum 6061-T6,CNC lathe + 4-axis mill (vanes),116.0 x 116.0 x 13.9,48253.2,130.28,130.28,"18 wedge vanes + 24 deswirl vanes, one piece"
+shaft,1,Stainless 17-4PH H1025,"Turned, aged H1025, ground at bearing seats",10.0 x 10.0 x 145.0,9421.7,73.49,73.49,"Ø8 at bearings, Ø10 between; M8 x 1 ends"
+bearing_608,2,"Hybrid bearing (52100 races, Si3N4 balls)","Buy: 608 hybrid ceramic, C3, high-speed cage",22.0 x 22.0 x 7.0,1282.3,8.98,17.95,8 x 22 x 7; oil-mist lubricated
+bearing_sleeve_front,1,Stainless 17-4PH H1025,Lathe; ground OD/ID,24.0 x 24.0 x 7.8,622.0,4.85,4.85,"Soft mount: 1 mm wall, rear lip locates the outer race"
+bearing_sleeve_rear,1,Stainless 17-4PH H1025,Lathe; ground OD/ID,24.0 x 24.0 x 7.0,502.4,3.92,3.92,"Soft mount: plain sleeve, outer race slides (preload)"
+shaft_tunnel,1,Stainless 17-4PH H1025,Lathe + drill; grooves for 4 O-rings,48.0 x 48.0 x 92.5,16225.9,126.56,126.56,Front flange bolted to diffuser; rear spigot floats in NGV web
+oring_24x1.5,4,Viton (FKM) 75 Shore A,Buy: Viton O-ring 24 x 1.5,26.7 x 26.7 x 1.4,112.6,0.21,0.83,2 per bearing; ~0.75 MN/m each -> ~1.5 MN/m per bearing
+anti_rotation_pin,2,Stainless 17-4PH H1025,"Buy: Ø1.5 dowel, cut to length",1.5 x 1.5 x 3.2,5.5,0.04,0.09,Pressed into tunnel; loose in a Ø2 sleeve hole
+spacer_tube,1,Stainless 17-4PH H1025,Lathe; faces ground parallel,13.6 x 13.6 x 78.0,4949.3,38.6,38.6,Clamps the two inner races
+preload_spring,1,Stainless 302 spring wire,Buy/wind: Ø20.4 x 0.8 wire compression spring,21.2 x 21.2 x 8.5,44.7,0.35,0.35,Axial preload ~20-30 N on the rear outer race
+outer_casing,1,Stainless 304,Roll + TIG-seam 1 mm sheet; flanges & bosses welded,130.0 x 130.0 x 105.0,45554.9,364.44,364.44,Flanges M3 x 8 on Ø124.6
+liner_outer,1,Stainless 310 (or Inconel 625),"Laser-cut 0.5 mm sheet, rolled, TIG-welded; dome welded",107.3 x 107.3 x 75.0,16684.5,131.81,131.81,Holes: primary/secondary/dilution + glow plug
+liner_inner,1,Stainless 310 (or Inconel 625),"Laser-cut 0.5 mm sheet, rolled, welded",36.9 x 36.9 x 72.5,3353.3,26.49,26.49,Holes: primary/secondary/dilution
+vaporizer,8,Stainless 310 (or Inconel 625),Bend Ø5 x 0.5 tube over a R5 former,15.0 x 5.0 x 41.5,433.3,3.42,27.39,J-tube; brazed/welded into the dome
+fuel_manifold,1,Stainless 304,"Ø3 x 0.5 tube rolled to Ø68 ring, silver-brazed",71.0 x 71.0 x 3.0,829.0,6.63,6.63,Fuel ring feeding 8 needles
+fuel_needle,8,Stainless 304,"Buy: 21 G hypodermic tube, cut",0.8 x 0.8 x 3.0,1.1,0.01,0.07,One per vaporizer
+fuel_line,1,Stainless 304,Ø3 x 0.5 tube,3.0 x 3.0 x 35.5,137.6,1.1,1.1,Manifold to casing fitting
+oil_line,1,Stainless 304,Ø2.5 x 0.5 tube,2.5 x 2.5 x 56.3,175.0,1.4,1.4,Casing fitting to the front bearing housing
+line_fitting,2,Stainless 304,Lathe + hex,8.1 x 7.0 x 9.0,178.1,1.42,2.85,Bulkhead fitting in casing boss (fuel and oil)
+glow_plug,1,"Bought-in (glow plug, thermocouple)",Buy: model-engine glow plug (1/4-32),9.2 x 8.0 x 22.0,637.7,4.85,4.85,"Igniter; start with propane, then kerosene"
+ngv_ring,1,Inconel 718,Rings turned; vanes wire-EDM + vacuum brazed (or investment cast),130.0 x 130.0 x 30.0,31430.7,257.42,257.42,19 vanes; shroud + rear flange
+turbine_wheel,1,Inconel 713C (cast),"Investment-cast blank, finish-turned, balanced",69.1 x 69.1 x 17.5,22155.8,175.25,175.25,"27 blades, unshrouded"
+turbine_nut,1,Inconel 718,Lathe + hex,13.9 x 12.0 x 6.0,446.4,3.66,3.66,M8 x 1; IN718 for strength at ~600 C
+nozzle,1,Stainless 321,"Spun / rolled 0.8 mm sheet, 1.5 mm flange welded",130.0 x 130.0 x 80.5,27091.8,214.57,214.57,"Convergent, 0.8 wall; EGT boss"
+tail_cone,1,Stainless 321,Spun 0.8 mm sheet + 4 welded struts,50.1 x 50.1 x 39.0,3999.2,31.67,31.67,Struts welded to nozzle wall
+egt_thermocouple,1,"Bought-in (glow plug, thermocouple)",Buy: K-type Ø1.5 probe + compression fitting,8.1 x 7.0 x 29.0,264.5,2.01,2.01,Exhaust-gas temperature
+screw_M3x6,12,Stainless A2-70 fasteners,Buy: ISO 4762 M3 x 6,5.5 x 5.5 x 9.0,101.9,0.81,9.66,"Bellmouth (6), tunnel flange (6)"
+screw_M3x10,14,Stainless A2-70 fasteners,Buy: ISO 4762 M3 x 10,5.5 x 5.5 x 13.0,128.0,1.01,14.16,"Diffuser vanes (6), front flange (8)"
+screw_M3x12_A286,8,A286 heat-resisting fasteners,Buy: M3 x 12 A286 / Inconel,5.5 x 5.5 x 15.0,141.1,1.12,8.96,Hot rear flange (8)
+screw_M3x16,2,Stainless A2-70 fasteners,Buy: ISO 4762 M3 x 16,5.5 x 5.5 x 19.0,167.2,1.32,2.64,Mounting-band clamps
+screw_M4x16,8,Stainless A2-70 fasteners,Buy: ISO 4762 M4 x 16,7.0 x 7.0 x 20.0,322.8,2.55,20.4,"Stand: tabs to pillars, pillars to base"
+nut_M3,10,Stainless A2-70 fasteners,Buy: ISO 4032 M3,6.4 x 5.5 x 2.4,46.1,0.36,3.64,"Front flange (8), band clamps (2)"
+nut_M3_A286,8,A286 heat-resisting fasteners,Buy: M3 A286 / Inconel,6.4 x 5.5 x 2.4,46.1,0.37,2.93,Hot rear flange (8)
+mounting_band,2,Aluminum 6061-T6,"Laser/waterjet from 10 mm plate, bored, slit",142.0 x 125.0 x 10.0,14649.0,39.55,79.1,Clamps the casing to the stand
+stand_pillar,2,Aluminum 6061-T6,Saw + drill from 20 x 32 bar,37.0 x 32.0 x 20.0,23138.3,62.47,124.95,Test stand
+stand_base,1,Aluminum 6061-T6,Saw + drill 8 mm plate,8.0 x 160.0 x 260.0,331301.3,894.51,894.51,Test stand; clamp to a thrust sled

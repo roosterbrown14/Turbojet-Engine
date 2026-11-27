@@ -1,0 +1,35 @@
+TJ-110 geometry checks (design model, not measured)
+
+1. Pairwise overlap check of 117 placed parts (boolean intersection, tolerance 0.5 mm3)
+   No interferences found.
+   (O-rings are modelled at their installed 10 % squeeze, so they only touch the sleeve and groove.)
+
+2. Running clearances: rotating parts vs stationary parts, from swept meridional (r, z) footprints.
+   Exact for axisymmetric stators; for vaned stators it is the minimum over all rotor angles.
+   Cold, static dimensions: thermal growth and centrifugal growth are NOT included.
+
+   rotor part      stator part            min gap (mm)   at r, z (mm)    requirement
+   turbine_wheel   ngv_ring                       0.29     33.8,  119.1   PASS >= 0.25 (turbine tip to shroud / blade LE to NGV TE)
+   impeller        front_cover                    0.30     29.2,   11.1   PASS >= 0.25 (impeller blade tip to shroud)
+   impeller        diffuser                       0.50     13.2,   22.0   PASS >= 0.4 (impeller rim/back face to diffuser)
+   impeller        screw_M3x6                     0.50     13.2,   22.0   
+   impeller        shaft_tunnel                   1.00     13.2,   22.0   PASS >= 0.5 (impeller back face to tunnel)
+   turbine_wheel   tail_cone                      1.00     19.4,  133.0   PASS >= 0.5 (turbine disc to tail cone)
+   turbine_wheel   nozzle                         1.04     33.8,  133.0   
+   impeller        bearing_sleeve_front           1.50     13.2,   22.0   
+   impeller        oring_24x1.5                   2.02     13.2,   22.0   
+   spacer_tube     shaft_tunnel                   2.70      6.8,   69.5   
+   spacer_tube     bearing_sleeve_front           3.00      5.9,   30.5   
+   spacer_tube     preload_spring                 3.00      5.9,  108.5   
+   impeller        anti_rotation_pin              3.85     13.2,   22.0   
+   turbine_wheel   bearing_sleeve_rear            4.50      5.3,  115.5   
+   turbine_wheel   shaft_tunnel                   4.73     14.0,  120.5   PASS >= 0.5 (turbine boss to tunnel)
+   turbine_wheel   oring_24x1.5                   5.32     14.0,  120.5   
+
+   Key running clearances (cold):
+   NGV trailing edge to turbine blade leading edge (axial)     1.00 mm   PASS (>= 0.80)
+   turbine blade tip to shroud (radial)                        0.29 mm   PASS (>= 0.25)
+   impeller blade tip to shroud                                0.30 mm   PASS (>= 0.25)
+   impeller exit to diffuser vane leading edge (radial)        2.90 mm   PASS (>= 1.50)
+
+3. Soft bearing mounts: radial travel of each sleeve in the tunnel bore before metal contact = 0.15 mm (snubber), O-ring squeeze 10 %, target support stiffness 1.5 MN/m per bearing.

@@ -1,0 +1,41 @@
+part,file,qty,material,key_dimensions_mm,envelope_mm,mass_each_g,mass_total_g,process
+Inlet bellmouth,cad/stl/bellmouth.stl,1,Aluminum 6061-T6,"Ø47.6 throat, lip Ø80.6, 33 long, 2.5 wall; 3 starter bosses M3",87.8 x 83.2 x 33.2,62.12,62.12,CNC lathe from Ø85 bar; 3 starter bosses milled
+Front cover / compressor shroud,cad/stl/front_cover.stl,1,Aluminum 6061-T6,"shroud Ø47.6→Ø73.2 (0.3 off tips), flange Ø130, 8 × Ø3.4 on Ø124.6",130.0 x 130.0 x 19.0,131.09,131.09,CNC lathe (shroud contour turned to the blade-tip offset)
+Compressor impeller,cad/stl/impeller.stl,1,Aluminum 2618-T61,"D2 72.6, D1t 47.0, hub 16.4, b2 5.67, 7+7 blades, 30° backsweep",72.6 x 72.6 x 24.5,75.8,75.8,5-axis milled from forged bar; balanced
+Compressor nut,cad/stl/compressor_nut.stl,1,Stainless 17-4PH H1025,"M8 × 1 LH, hex AF12 × 6 + nose",13.9 x 12.0 x 8.5,5.07,5.07,Lathe + hex mill
+Diffuser (radial + deswirl vanes),cad/stl/diffuser.stl,1,Aluminum 6061-T6,"18 wedge vanes Ø78.4→Ø108.8, 24 deswirl vanes, Ø116",116.0 x 116.0 x 13.9,130.28,130.28,CNC lathe + 4-axis mill (vanes)
+Shaft,cad/stl/shaft.stl,1,Stainless 17-4PH H1025,"Ø8 at bearings, Ø10 between, 145 long, M8 × 1 ends",10.0 x 10.0 x 145.0,73.49,73.49,"Turned, aged H1025, ground at bearing seats"
+Bearing spacer tube,cad/stl/spacer_tube.stl,1,Stainless 17-4PH H1025,Ø10.2 / Ø13.6 × 78,13.6 x 13.6 x 78.0,38.6,38.6,Lathe; faces ground parallel
+Bearing 608 hybrid,cad/stl/bearing_608.stl,2,"Hybrid bearing (52100 races, Si3N4 balls)","8 × 22 × 7, Si3N4 balls, C3",22.0 x 22.0 x 7.0,8.98,17.95,"Buy: 608 hybrid ceramic, C3, high-speed cage"
+"Bearing sleeve, front",cad/stl/bearing_sleeve_front.stl,1,Stainless 17-4PH H1025,"Ø22 / Ø24 × 7.8, rear lip Ø19.6, Ø2 pin hole, Ø1 oil hole",24.0 x 24.0 x 7.8,4.85,4.85,Lathe; ground OD/ID
+"Bearing sleeve, rear",cad/stl/bearing_sleeve_rear.stl,1,Stainless 17-4PH H1025,"Ø22 / Ø24 × 7, Ø2 pin hole",24.0 x 24.0 x 7.0,3.92,3.92,Lathe; ground OD/ID
+O-ring 24 × 1.5 (soft mount),cad/stl/oring_24x1.5.stl,4,Viton (FKM) 75 Shore A,"24 ID × 1.5 cord, gland 1.35 (10 % squeeze)",26.7 x 26.7 x 1.4,0.21,0.83,Buy: Viton O-ring 24 x 1.5
+Anti-rotation pin,cad/stl/anti_rotation_pin.stl,2,Stainless 17-4PH H1025,Ø1.5 × 3.2 dowel,1.5 x 1.5 x 3.2,0.04,0.09,"Buy: Ø1.5 dowel, cut to length"
+Preload spring,cad/stl/preload_spring.stl,1,Stainless 302 spring wire,"Ø20.4 mean, 0.8 wire, 8.5 installed",21.2 x 21.2 x 8.5,0.35,0.35,Buy/wind: Ø20.4 x 0.8 wire compression spring
+Shaft tunnel,cad/stl/shaft_tunnel.stl,1,Stainless 17-4PH H1025,"bore Ø24.3 (sleeves), housings Ø29.2, tube Ø22, flange Ø48",48.0 x 48.0 x 92.5,126.56,126.56,Lathe + drill; grooves for 4 O-rings
+Outer casing,cad/stl/outer_casing.stl,1,Stainless 304,"Ø116.8 ID × 1 wall × 105, flanges Ø130 × 1.5",130.0 x 130.0 x 105.0,364.44,364.44,Roll + TIG-seam 1 mm sheet; flanges & bosses welded
+Combustor outer liner + dome,cad/stl/liner_outer.stl,1,Stainless 310 (or Inconel 625),"Ø106.8 × 0.5 sheet, 75 long, cone to Ø73.0, 8 vaporizer holes Ø5.1",107.3 x 107.3 x 75.0,131.81,131.81,"Laser-cut 0.5 mm sheet, rolled, TIG-welded; dome welded"
+Combustor inner liner,cad/stl/liner_inner.stl,1,Stainless 310 (or Inconel 625),"Ø30 × 0.5 sheet, cone to Ø36.4",36.9 x 36.9 x 72.5,26.49,26.49,"Laser-cut 0.5 mm sheet, rolled, welded"
+Vaporizer tube,cad/stl/vaporizer.stl,8,Stainless 310 (or Inconel 625),"Ø5 × 0.5 tube, J: 34 + R5 + 12",15.0 x 5.0 x 41.5,3.42,27.39,Bend Ø5 x 0.5 tube over a R5 former
+Fuel manifold ring,cad/stl/fuel_manifold.stl,1,Stainless 304,Ø3 × 0.5 tube on Ø68,71.0 x 71.0 x 3.0,6.63,6.63,"Ø3 x 0.5 tube rolled to Ø68 ring, silver-brazed"
+Fuel needle,cad/stl/fuel_needle.stl,8,Stainless 304,Ø0.8 × 3 (21 G),0.8 x 0.8 x 3.0,0.01,0.07,"Buy: 21 G hypodermic tube, cut"
+Fuel line,cad/stl/fuel_line.stl,1,Stainless 304,Ø3 × 0.5 × 35.5,3.0 x 3.0 x 35.5,1.1,1.1,Ø3 x 0.5 tube
+Oil line,cad/stl/oil_line.stl,1,Stainless 304,Ø2.5 × 0.5 × 56,2.5 x 2.5 x 56.3,1.4,1.4,Ø2.5 x 0.5 tube
+Bulkhead fitting,cad/stl/line_fitting.stl,2,Stainless 304,"hex AF7, Ø4.4 nipple, Ø3.1 bore",8.1 x 7.0 x 9.0,1.42,2.85,Lathe + hex
+Glow plug (igniter),cad/stl/glow_plug.stl,1,"Bought-in (glow plug, thermocouple)","1/4-32 body, hex AF8",9.2 x 8.0 x 22.0,4.85,4.85,Buy: model-engine glow plug (1/4-32)
+NGV ring + turbine shroud,cad/stl/ngv_ring.stl,1,Inconel 718,"19 vanes, hub Ø41.7, tip Ø69.7, axial chord 9.8, exit ~63°",130.0 x 130.0 x 30.0,257.42,257.42,Rings turned; vanes wire-EDM + vacuum brazed (or investment cast)
+Turbine wheel,cad/stl/turbine_wheel.stl,1,Inconel 713C (cast),"tip Ø69.1, hub Ø41.7, 27 blades, h = chord = 13.7, disc 12",69.1 x 69.1 x 17.5,175.25,175.25,"Investment-cast blank, finish-turned, balanced"
+Turbine nut,cad/stl/turbine_nut.stl,1,Inconel 718,"M8 × 1, hex AF12 × 6",13.9 x 12.0 x 6.0,3.66,3.66,Lathe + hex
+Exhaust nozzle,cad/stl/nozzle.stl,1,Stainless 321,"Ø69.7 → exit Ø42.9, 0.8 wall, flange Ø130 × 1.5",130.0 x 130.0 x 80.5,214.57,214.57,"Spun / rolled 0.8 mm sheet, 1.5 mm flange welded"
+Tail cone + struts,cad/stl/tail_cone.stl,1,Stainless 321,"Ø41.2 × 39, 0.8 wall, 4 struts 1.2 thick",50.1 x 50.1 x 39.0,31.67,31.67,Spun 0.8 mm sheet + 4 welded struts
+EGT thermocouple,cad/stl/egt_thermocouple.stl,1,"Bought-in (glow plug, thermocouple)","Ø1.5 probe, 15 immersion",8.1 x 7.0 x 29.0,2.01,2.01,Buy: K-type Ø1.5 probe + compression fitting
+Screw M3 × 6,cad/stl/screw_M3x6.stl,12,Stainless A2-70 fasteners,ISO 4762,5.5 x 5.5 x 9.0,0.81,9.66,Buy: ISO 4762 M3 x 6
+Screw M3 × 10,cad/stl/screw_M3x10.stl,14,Stainless A2-70 fasteners,ISO 4762,5.5 x 5.5 x 13.0,1.01,14.16,Buy: ISO 4762 M3 x 10
+Screw M3 × 12 (hot),cad/stl/screw_M3x12_A286.stl,8,A286 heat-resisting fasteners,A286,5.5 x 5.5 x 15.0,1.12,8.96,Buy: M3 x 12 A286 / Inconel
+Screw M3 × 16,cad/stl/screw_M3x16.stl,2,Stainless A2-70 fasteners,ISO 4762,5.5 x 5.5 x 19.0,1.32,2.64,Buy: ISO 4762 M3 x 16
+Screw M4 × 16,cad/stl/screw_M4x16.stl,8,Stainless A2-70 fasteners,ISO 4762,7.0 x 7.0 x 20.0,2.55,20.4,Buy: ISO 4762 M4 x 16
+Nut M3,cad/stl/nut_M3.stl,10,Stainless A2-70 fasteners,ISO 4032,6.4 x 5.5 x 2.4,0.36,3.64,Buy: ISO 4032 M3
+Nut M3 (hot),cad/stl/nut_M3_A286.stl,8,A286 heat-resisting fasteners,A286,6.4 x 5.5 x 2.4,0.37,2.93,Buy: M3 A286 / Inconel
+Mounting band,cad/stl/mounting_band.stl,2,Aluminum 6061-T6,"Ø118.9 bore, 3 wall, 10 wide",142.0 x 125.0 x 10.0,39.55,79.1,"Laser/waterjet from 10 mm plate, bored, slit"
+Stand pillar,cad/stl/stand_pillar.stl,2,Aluminum 6061-T6,37 × 32 × 20,37.0 x 32.0 x 20.0,62.47,124.95,Saw + drill from 20 x 32 bar
+Stand base plate,cad/stl/stand_base.stl,1,Aluminum 6061-T6,260 × 160 × 8,8.0 x 160.0 x 260.0,894.51,894.51,Saw + drill 8 mm plate
