@@ -10,6 +10,7 @@ Writes (in prototypes/):
   TJ110_exploded_3d.png             shaded 3-D exploded view, colour = material
   TJ110_cutaway.png                 shaded 3-D render with a quarter removed
   TJ110_exploded.stl, TJ110_viewer_exploded.html   3-D exploded model and interactive viewer
+  TJ110_assembled.stl              the same engine parts fully assembled (no test stand)
   TJ110_parts_list.csv              parts, materials, key dimensions, masses, process
 
 Run: .venv/bin/python prototypes/build_drawings.py
@@ -347,6 +348,10 @@ def exploded(placed):
     full = [(n, tmb(m)) for n, m in moved]
     dec = cad.decimate_set([t for _, t in full], 95000)
     trimesh.util.concatenate(dec).export(OUT / "TJ110_exploded.stl")
+    # the same engine parts, fully assembled (no test stand), at the same mesh resolution
+    names = {n for n, _ in moved}
+    asm = cad.decimate_set([tmb(m) for n, m, _ in placed if n in names], 95000)
+    trimesh.util.concatenate(asm).export(OUT / "TJ110_assembled.stl")
     # interactive viewer
     import plotly.graph_objects as go
     fig = go.Figure()

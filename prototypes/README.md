@@ -44,7 +44,8 @@ TIT 1100 K, EGT 989 K, fuel 0.37 L/min Jet A-1.
 ![TJ-110 parts sheet](TJ110_parts_sheet.png)
 
 3-D versions: [`TJ110_viewer_exploded.html`](TJ110_viewer_exploded.html) (interactive; open in a browser)
-and `TJ110_exploded.stl`. Individual part STLs are in [`../cad/stl/`](../cad/stl/). The balloon numbers
+and [`TJ110_exploded.stl`](TJ110_exploded.stl), with the fully assembled engine (same parts, no test stand)
+just below it in [`TJ110_assembled.stl`](TJ110_assembled.stl). Individual part STLs are in [`../cad/stl/`](../cad/stl/). The balloon numbers
 in the exploded views (1–40) are the item numbers used in the assembly sequence below.
 
 ## Parts, materials and manufacturing route
