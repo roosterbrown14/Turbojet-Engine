@@ -1,0 +1,12 @@
+part,chosen,alternative,metal_T_C,stress_MPa,notes
+Compressor wheel,Aluminum 2618-T61,Titanium Ti-6Al-4V,105,289,SF 1.24 on yield; Ti-6Al-4V gives SF 1.70 at 1.6× the mass
+Diffuser,Aluminum 6061-T6,Aluminum 2618-T61,≈150,low,Machined vanes; anodize
+Shaft,Stainless 17-4PH H1025,Steel AISI 4140 (Q&T),≈250-350,torque + bending,Ground at bearing seats; hardened 4140 is cheaper
+Bearings,Hybrid Si3N4 balls,-,≤150 (oil-mist cooled),DN 0.88×10⁶,Steel 608 bearings exceed their DN limit (0.9×10⁶)
+Combustor liner,Stainless 310,Hastelloy X,850-950,low,"0.5 mm sheet, rolled and spot/TIG welded"
+Vaporizer tubes,Stainless 310,Inconel 625,900-1000,low,Ø5 × 0.3 mm tube; inspect for burn-through
+NGV ring,Inconel 625,Inconel 718,≈827 (gas),low,"Sheet vanes brazed/welded into rings, or cast"
+Turbine wheel,Inconel 713C (cast),MAR-M247 (cast),728 (blade root),239,Buy a cast blank; machining from bar is very hard
+Nozzle and tail cone,Stainless 321,Stainless 310,≈715,low,0.5 mm sheet
+Outer casing,Stainless 304,Al6061 (cold front only),150-400,pressure 1.8 bar(g),1 mm tube or rolled sheet
+Front cover / inlet,Aluminum 6061-T6,-,≈20-60,low,Machined
