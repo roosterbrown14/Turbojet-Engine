@@ -30,7 +30,7 @@ and a safe test plan. All units are SI metric (mm, N, kPa, °C, krpm, L/min).
 | Air flow / pressure ratio / speed | 0.25 kg/s / 2.8 / 110 000 rpm |
 | Turbine inlet / exhaust gas temperature | 827 °C / 715 °C |
 | Jet | 443 m/s through a Ø42.9 mm nozzle |
-| Size | Ø119 mm casing |
+| Size and mass | Ø119 mm casing (Ø130 flanges), 239 mm long, ≈ 1.96 kg |
 | Compressor | Ø72.6 mm Al 2618 impeller, 7 + 7 blades, 30° backsweep, 418 m/s tip, η 0.76 |
 | Turbine | Ø69.1 mm cast IN713C wheel, 27 blades, η 0.80 |
 | Combustor | Annular 310-stainless liner, 75 mm long, 8 vaporizer tubes |
@@ -75,11 +75,18 @@ All 16 research questions are answered in **[docs/recommendations.md](docs/recom
 
 Every part is a watertight STL in [`cad/stl/`](cad/stl/). There are interactive 3-D viewers for the assembly
 ([`cad/viewer_TJ110.html`](cad/viewer_TJ110.html)) and the exploded engine ([`prototypes/TJ110_viewer_exploded.html`](prototypes/TJ110_viewer_exploded.html)).
-> **CAD status: in progress.** The parametric models, assembly, viewers, BOM ([`cad/bom_TJ110.csv`](cad/bom_TJ110.csv)),
-> interference check ([`cad/interference_TJ110.txt`](cad/interference_TJ110.txt)), drawings and parts list
-> ([`prototypes/TJ110_parts_list.csv`](prototypes/TJ110_parts_list.csv)) are done. Still to come: the written build package
-> (`prototypes/README.md`: manufacturing routes, assembly and balancing steps, cost estimate in CAD, blank results sheet)
-> and `cad/README.md`.
+40 unique parts (117 placed), engine mass ≈ 1.96 kg, 239 mm long. No interferences; impeller and turbine tip
+clearances 0.30 mm cold ([`cad/interference_TJ110.txt`](cad/interference_TJ110.txt)). The build package, with parts and
+materials, manufacturing route per part, tolerances and fits, balancing, a 16-step assembly sequence keyed to the exploded
+view, a cost estimate in CAD and blank as-built and first-run sheets, is in **[prototypes/README.md](prototypes/README.md)**.
+Model details: [cad/README.md](cad/README.md).
+
+| Cost (CAD, indicative) | Low | High |
+|---|---|---|
+| Engine parts | $3,235 | $11,410 |
+| ECU and instrumentation | $1,200 | $4,460 |
+| Test stand and safety | $600 | $2,010 |
+| **Total** | **$5,035** | **$17,880** |
 
 ## Key charts
 
@@ -122,7 +129,7 @@ Equations: [physics.md](docs/physics.md). Assumptions, numerics, verification: [
 | [off-design](docs/results/offdesign.md) · [rotordynamics](docs/results/rotordynamics.md) · [sensitivity](docs/results/sensitivity.md) | Throttle, weather, critical speeds, uncertainty |
 | [physics.md](docs/physics.md) · [methodology.md](docs/methodology.md) | Equations, assumptions, verification |
 | [literature_review.md](docs/literature_review.md) | 40 sources (34 DOIs checked against Crossref) |
-| [cad/](cad/) · [prototypes/](prototypes/) | 3-D models, drawings, BOM and parts list (build-package write-up in progress) |
+| [prototypes/README.md](prototypes/README.md) · [cad/README.md](cad/README.md) | Build package (assembly, balancing, cost) and 3-D models |
 | [experiments/test_plan.md](experiments/test_plan.md) | Instruments, test sequence, analysis script |
 | [safety.md](docs/safety.md) | **Read before building or running anything** |
 

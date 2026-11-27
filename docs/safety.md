@@ -10,7 +10,7 @@ experienced model-turbine builder), never alone.
 | Rotating part | Mass | Kinetic energy at 110 krpm |
 |---|---|---|
 | Compressor wheel | ≈ 75 g | ≈ 1.9 kJ |
-| Turbine wheel | ≈ 163 g | ≈ 4.7 kJ |
+| Turbine wheel | ≈ 175 g | ≈ 5 kJ |
 
 Together that is more than the muzzle energy of a high-powered hunting rifle. The 1 mm stainless casing **will not contain a wheel burst.**
 

@@ -181,8 +181,9 @@ def build():
           img(first("prototypes/TJ110_exploded_section.png", "diagrams/cad_TJ110_section.png"),
               caption="Exploded section with part labels."), PageBreak(),
           img("prototypes/TJ110_parts_sheet.png", caption="Every part laid out separately with material, quantity and key dimensions."),
-          P("Parts list and masses: prototypes/TJ110_parts_list.csv and cad/bom_TJ110.csv. The written build package "
-            "(manufacturing routes, assembly, balancing, cost estimate in CAD) is in progress.", BODY), PageBreak()]
+          P("40 unique parts (117 placed); engine ≈ 1.96 kg, 239 mm long. Indicative cost CAD $5,035–17,880 including "
+            "ECU, instrumentation and test stand (engine parts $3,235–11,410). Manufacturing routes, fits, balancing, the "
+            "16-step assembly sequence and blank results sheets are in prototypes/README.md.", BODY), PageBreak()]
 
     s += [P("8. Testing and safety", H1),
           table([["#", "Test", "Why"],
@@ -192,7 +193,7 @@ def build():
                  ["T6", "Nozzle trim to EGT ≈ 700 °C", "Final tuning"]],
                 [12 * mm, 80 * mm, W - 92 * mm]),
           Spacer(1, 6),
-          P("<b>Safety.</b> The wheels store ≈ 6.6 kJ at full speed and the casing will not contain a burst: never stand in "
+          P("<b>Safety.</b> The wheels store ≈ 7 kJ at full speed and the casing will not contain a burst: never stand in "
             "the plane of rotation, run behind a barrier, and use an ECU speed limit. Kerosene only, CO₂ extinguishers, "
             "a hot-start procedure, ear protection (120–130 dB(A)), supervised runs only. Full procedure: docs/safety.md."),
           P("9. Limitations", H1),

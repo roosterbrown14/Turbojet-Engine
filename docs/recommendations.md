@@ -27,7 +27,7 @@ What to build, why, and what to test first. Everything below is from models, **n
 
 | Option | What | Thrust | Cost (CAD) | Difficulty |
 |---|---|---|---|---|
-| **TJ-110** (recommended) | Full design in this repository | ≈ 110 N | see [`prototypes/`](../prototypes/) (cost estimate in progress) | High: needs 5-axis milling, a cast turbine blank, TIG welding, balancing |
+| **TJ-110** (recommended) | Full design in this repository | ≈ 110 N | $5,035–17,880 total incl. ECU and stand ([build package](../prototypes/README.md)) | High: needs 5-axis milling, a cast turbine blank, TIG welding, balancing |
 | TJ-110T | Same, with a commercial turbocharger compressor wheel of similar size | similar | lower | Medium; must re-match diffuser to the wheel |
 | TJ-110Ti | Ti-6Al-4V impeller, PR 3.2 | ≈ 115 N, −6 % TSFC | +CAD 400–900 | Titanium machining |
 

@@ -16,7 +16,7 @@ Read this first when resuming work. Last updated 2026-11-26. Units: SI metric (m
 | Verification (JANAF, first law, exact beam and disc solutions, off-design consistency) and published-engine benchmark (±7 %) | `simulations/verification.py`, `docs/methodology.md` |
 | Recommendations answering 16 research questions | `docs/recommendations.md` |
 | 3-D models of every part, assembly, viewers, BOM, interference check | `cad/` |
-| Drawings: assembled section, cutaway, exploded views (2-D and 3-D), parts sheet, parts list | `prototypes/` |
+| Build package: assembled section, cutaway, exploded views (2-D, 3-D, interactive), parts sheet, parts list, manufacturing routes, fits, balancing, assembly sequence, CAD cost estimate ($5,035–17,880), blank results sheets | `prototypes/` |
 | Test plan, log template, analysis script, safety (Canadian references) | `experiments/`, `docs/safety.md` |
 | Project report (PDF) | `docs/report/` |
 | 18 automated tests, run on GitHub for every push | `tests/`, `.github/workflows/tests.yml` |
@@ -27,9 +27,6 @@ Read this first when resuming work. Last updated 2026-11-26. Units: SI metric (m
 - Bearings must be soft-mounted (O-rings, ≈ 1.5 × 10⁶ N/m): hard mounts put two critical speeds in the operating range.
 - Builder-controlled factors that matter most: compressor quality, combustor pressure loss, turbine tip clearance.
 - Hot starts, not steady creep, limit turbine life at the design TIT.
-
-## In progress
-- CAD write-ups: `cad/README.md`, `prototypes/README.md` (manufacturing routes, assembly, balancing, CAD cost estimate `prototypes/TJ110_cost_estimate.csv`, blank results sheet). Paused awaiting the author's go-ahead.
 
 ## Known limitations
 - Loss correlations calibrated on larger machines; no CFD.

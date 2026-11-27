@@ -1,0 +1,37 @@
+category,item,quantity_needed,suggested_purchase_or_route,indicative_cost_cad_low,indicative_cost_cad_high,notes
+Engine parts,Compressor impeller (Al 2618-T61),1,Ø80 forged bar + 5-axis milling at a job shop,400,1500,Low end = shop with an existing impeller post-processor; high end = one-off with CAM programming charged
+Engine parts,Turbine wheel (Inconel 713C),1,Investment-cast blank from a printed wax pattern + finish turning,600,2500,Alternative: wire-EDM blades from IN718 bar (similar cost); include a spare blank if the foundry allows
+Engine parts,NGV ring (Inconel 718),1,Turned rings + wire-EDM vanes + vacuum braze (or investment cast with the turbine),500,1800,Shroud bore ground after brazing to set the 0.30 mm tip gap
+Engine parts,Diffuser (Al 6061-T6),1,CNC lathe + 4-axis milling of 18 wedge and 24 deswirl vanes,250,800,One piece; 12 tapped M3 holes (6 in vanes, 6 for the tunnel flange)
+Engine parts,Front cover and bellmouth (Al 6061-T6),2,CNC lathe; bosses milled,200,600,Shroud contour turned from the CAD offset curve
+Engine parts,"Shaft, spacer tube, compressor and turbine nuts",4,"17-4PH bar turned, aged H1025, bearing seats ground; turbine nut IN718",150,450,Runout at bearing seats ≤ 0.005 mm TIR
+Engine parts,"Shaft tunnel, two bearing sleeves, two anti-rotation pins",5,17-4PH bar turned + ground; Ø1.5 dowels,150,450,Four O-ring grooves in the tunnel bore
+Engine parts,608 hybrid ceramic bearings (8 × 22 × 7),2 (+2 spares),"Si3N4 balls, C3, high-speed cage",60,200,Buy 4: bearings are consumables on the first runs
+Engine parts,Viton O-rings 24 × 1.5,4 (+pack),FKM 75 Shore A pack of 10,10,25,Soft bearing mounts (1.5 MN/m per bearing)
+Engine parts,Preload spring Ø20.4 × 0.8 wire,1 (+spares),Stock compression spring or custom wound,5,20,Choose rate for 20–30 N at 8.5 mm installed length
+Engine parts,Combustor liners (SS310 0.5 mm),2,"Laser-cut flat patterns, rolled, TIG-welded",150,500,Add 150–300 for Inconel 625 sheet instead of 310
+Engine parts,Vaporizer tubes (SS310 Ø5 × 0.5),8 (+2),Tube bent over a R5 former; TIG into the dome,30,80,
+Engine parts,"Fuel manifold, needles, fuel and oil lines, 2 bulkhead fittings",1 set,"Ø3 and Ø2.5 SS tube, 21 G hypodermic tube, turned fittings, silver braze",40,120,
+Engine parts,Outer casing (SS304 1 mm) with flanges and bosses,1,"Rolled + seam-welded tube, flanges and 3 bosses TIG-welded, faced after welding",150,450,Face both flanges square after welding
+Engine parts,Nozzle and tail cone (SS321),2,"Spun or rolled 0.8 mm sheet, flange and struts welded",150,500,
+Engine parts,Fasteners (A2-70 and A286 M3),~50,"ISO 4762 screws, ISO 4032 nuts; A286 for the hot rear flange",30,90,
+Engine parts,Glow plug,1 (+2),Model-engine glow plug 1/4-32,10,25,
+Engine parts,Two-plane balancing of the wheels and assembled rotor,1 job,Balancing service with small-rotor arbours,150,500,Target ≤ 0.5 g·mm per plane (see README)
+Engine parts,"Materials, shipping, scrap and contingency",,,200,800,
+ECU and instrumentation,Engine control unit,1,Hobby turbine ECU or a custom microcontroller ECU,300,1200,Needs rpm and EGT inputs and pump/valve/starter/glow outputs
+ECU and instrumentation,Fuel pump,1,Brushed gear pump for turbines (0–1 L/min),150,450,Design point 0.37 L/min
+ECU and instrumentation,"Fuel and start-gas solenoid valves, filter, tank and lines",1 set,,110,350,
+ECU and instrumentation,Starter motor with one-way clutch cone,1,Bolts to the three bellmouth bosses through a bracket,100,350,Bracket not modelled
+ECU and instrumentation,Propane start kit,1,,40,100,
+ECU and instrumentation,RPM sensor,1,Hall sensor + magnet on the compressor nut or optical,30,100,
+ECU and instrumentation,EGT thermocouple and amplifier,1,K-type Ø1.5 probe + MAX31856 or similar,40,110,
+ECU and instrumentation,Thrust load cell 200 N + amplifier,1,S-beam load cell,100,400,
+ECU and instrumentation,"Pressure transducers (compressor delivery, oil)",2,0–4 bar abs,100,400,
+ECU and instrumentation,Data acquisition,1,USB DAQ or microcontroller logger,150,800,
+ECU and instrumentation,Batteries and charger,1 set,,80,200,
+Test stand and safety,"Stand base, pillars and mounting bands (Al 6061)",1 set,Saw/drill/waterjet,60,200,Modelled in the CAD
+Test stand and safety,Thrust sled on linear bearings,1,Two rails + four carriages,150,500,The base plate clamps to the sled
+Test stand and safety,Containment shield in the plane of the rotor,1,"6 mm steel plate or 12 mm polycarbonate, both sides",200,800,Stand nobody in the plane of the wheels
+Test stand and safety,CO2 fire extinguisher and safety equipment,1 set,"Extinguisher, ear defenders, face shields",130,350,
+Test stand and safety,"Fuel (Jet A-1 or kerosene) and turbine oil",,,30,80,About 5 % oil in fuel if no separate oil pump
+Test stand and safety,Optical tachometer for cross-checks,1,,30,80,

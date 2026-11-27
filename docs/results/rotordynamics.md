@@ -57,4 +57,4 @@ They are lubricated by a small fuel/oil mist bled to the bearings, and must stay
 ## 6. Not modelled
 
 Unbalance response amplitudes, O-ring damping values, bearing nonlinearity, and thermal bow. **Balance both
-wheels and the assembled rotor** (target ≤ 0.5 g·mm per plane).
+wheels and the assembled rotor** (accept ≤ 0.5 g·mm per plane, aim for ≤ 0.1 g·mm; see the [build package](../../prototypes/README.md)).

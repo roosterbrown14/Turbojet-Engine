@@ -394,7 +394,7 @@ def exploded(placed):
     ax.set_aspect("equal"); ax.grid(alpha=0.15)
     ax.set_xlim(zlo - 25, zhi + 10)
     ax.set_xlabel("z (mm): each sub-assembly pulled apart along the engine axis (inlet to the left); "
-                  "balloon numbers follow assembly order")
+                  "balloon numbers = item numbers in the README assembly sequence")
     ax.set_ylabel("mm")
     ax.set_title("TJ-110: exploded by sub-assembly, section through the axis (design, not built)\n"
                  "fasteners, fittings and lines are drawn with the part they fit; radial parts are rotated into the "
@@ -422,7 +422,7 @@ def exploded(placed):
               loc="upper left", bbox_to_anchor=(1.0, 1.0), fontsize=8, frameon=False, title="Material")
     ax.text(1.01, 0.52, "\n".join(f"{num:>2}  {group_text(g)[0]}" for num, _, g in numbered), transform=ax.transAxes,
             fontsize=7.4, va="top", family="DejaVu Sans Mono")
-    ax.set_title("TJ-110 exploded by sub-assembly (colour = material; numbers = assembly order; design, not built)", fontsize=12)
+    ax.set_title("TJ-110 exploded by sub-assembly (colour = material; numbers = item numbers in the README; design, not built)", fontsize=12)
     fig.savefig(OUT / "TJ110_exploded_3d.png", dpi=110, bbox_inches="tight")
     plt.close(fig)
     return numbered
